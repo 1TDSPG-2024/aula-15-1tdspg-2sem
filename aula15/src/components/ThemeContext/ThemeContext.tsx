@@ -25,7 +25,7 @@ export default function ThemeProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <ThemeContext.Provider value={{ tema, mudarTema() {} }}>
+    <ThemeContext.Provider value={{ tema, mudarTema }}>
       {children}
     </ThemeContext.Provider>
   );

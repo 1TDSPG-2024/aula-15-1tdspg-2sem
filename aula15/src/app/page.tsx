@@ -1,17 +1,13 @@
 
 export default function Home() {
-  // const { tema, mudarTema } = usaTema;
 
   return (
     <div>
-      <h1>Home {tema === "light" ? "light" : "dark"}</h1>
+      {/* <h1>Home {tema === "light" ? "light" : "dark"}</h1> */}
 
-      <button
-        onClick={mudarTema}
-        className="mt-2 p-2 bg-blue-500 text-white rounded-md"
-      >
+      {/* <button className="mt-2 p-2 bg-blue-500 text-white rounded-md">
         Alternar Tema
-      </button>
+      </button> */}
 
       <form className="max-w-sm mx-auto">
         <div className="mb-5">
