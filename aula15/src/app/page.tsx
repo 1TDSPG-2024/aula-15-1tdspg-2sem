@@ -1,8 +1,6 @@
-import { usaTema } from "@/components/ThemeContext/ThemeContext";
-import { useContext } from "react";
 
 export default function Home() {
-  const { tema, mudarTema } = usaTema;
+  // const { tema, mudarTema } = usaTema;
 
   return (
     <div>
